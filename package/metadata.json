@@ -1,0 +1,27 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "christian@kilb.tech",
+                "Name": "Christian Kilb"
+            }
+        ],
+        "BugReportUrl": "https://github.com/ckilb/plasma-smart-tasks/issues",
+        "Category": "Windows and Tasks",
+        "Description": "Icon-only task manager that shows a window title when an application has more than one window",
+        "Description[de]": "Task-Manager nur mit Symbolen, der den Fenstertitel zeigt, wenn ein Programm mehr als ein Fenster hat",
+        "EnabledByDefault": true,
+        "Icon": "preferences-system-windows",
+        "Id": "io.github.ckilb.smarttasks",
+        "License": "GPL-2.0-or-later",
+        "Name": "Smart Tasks",
+        "Name[de]": "Intelligente Aufgabenleiste",
+        "Version": "1.0.0",
+        "Website": "https://github.com/ckilb/plasma-smart-tasks"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.multitasking"
+    ]
+}
