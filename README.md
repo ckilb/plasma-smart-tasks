@@ -16,6 +16,12 @@ application has more than one window.**
 > **Status** — v1.0.0, developed and tested on **Plasma 6.7.5**. Pure QML, nothing to
 > compile. GPL-2.0-or-later. Bugs and ideas: [issues](https://github.com/ckilb/plasma-smart-tasks/issues).
 
+This is an actual panel, not a mock-up: two KWrite windows are open, so both get a labelled
+button with their file name, while every single-window application next to them stays a bare
+icon.
+
+![Real Plasma panel running Smart Tasks: single-window apps as icons, two KWrite windows with one labelled button each](docs/panel.png)
+
 | Your situation | What the panel shows |
 | --- | --- |
 | App not running (pinned launcher) | icon |
@@ -166,7 +172,8 @@ package/
     ├── config/                      main.xml (settings schema), config.qml (settings pages)
     └── ui/                          QML, with code/LayoutMetrics.js and code/TaskTools.js
 build.sh                             builds dist/*.plasmoid and dist/*.zip
-docs/behaviour.png                   the diagram above
+docs/panel.png                       the panel screenshot above
+docs/behaviour.png                   the schematic diagram
 ```
 
 The QML is derived from `plasma-desktop/applets/taskmanager` (Plasma 6.7.5,
